@@ -1,5 +1,68 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: url(https://images.unsplash.com/vector-1754199100419-181232bd1bb9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=928);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 
-body{
-    background: white;
+/* contenedor del título */
+.titulo-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+/* foodies - ocupa desde el centro hacia la derecha */
+.titulo-foodies {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  font-size: 6rem;
+  font-weight: 900;
+  color: #000;
+  margin: 0;
+  text-transform: lowercase;
+  letter-spacing: -2px;
+}
+
+/* EDITION - inicia a la mitad de foodies */
+.titulo-edition {
+  position: absolute;
+  left: 65%;
+  top: 110px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #000;
+  margin: 0;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+/* Estilos para los selectores */
+.form-select {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #333;
+}
+
+/* Estilos para el botón */
+.btn-primary {
+  background-color: #000;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+}
+
+/* Resultado */
+#resultado {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 3px solid #000;
 }
